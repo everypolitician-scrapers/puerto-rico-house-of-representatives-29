@@ -28,4 +28,5 @@ def scrape_list(url)
   end
 end
 
+ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
 scrape_list('https://en.wikipedia.org/wiki/29th_House_of_Representatives_of_Puerto_Rico')
