@@ -1,0 +1,74 @@
+---
+request:
+  method: get
+  uri: https://en.wikipedia.org/wiki/29th_House_of_Representatives_of_Puerto_Rico
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Mon, 09 Jan 2017 08:46:17 GMT
+    Content-Type:
+    - text/html; charset=UTF-8
+    Content-Length:
+    - '19497'
+    Connection:
+    - keep-alive
+    Server:
+    - mw1179.eqiad.wmnet
+    X-Powered-By:
+    - HHVM/3.12.7
+    Vary:
+    - Accept-Encoding,Cookie,Authorization
+    X-Ua-Compatible:
+    - IE=Edge
+    Content-Language:
+    - en
+    P3p:
+    - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+      for more info."
+    X-Content-Type-Options:
+    - nosniff
+    Last-Modified:
+    - Sat, 07 Jan 2017 16:15:17 GMT
+    Backend-Timing:
+    - D=87966 t=1483814627675850
+    X-Varnish:
+    - 681846233 817205385, 582162335 569570594, 53106430
+    Via:
+    - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+    Accept-Ranges:
+    - bytes
+    Age:
+    - '136950'
+    X-Cache:
+    - cp1067 hit/5, cp3032 hit/1, cp3041 miss
+    X-Cache-Status:
+    - hit
+    Strict-Transport-Security:
+    - max-age=31536000; includeSubDomains; preload
+    Set-Cookie:
+    - GeoIP=GB:ENG:Bristol:51.45:-2.58:v4; Path=/; secure; Domain=.wikipedia.org
+    - WMF-Last-Access=09-Jan-2017;Path=/;HttpOnly;secure;Expires=Fri, 10 Feb 2017
+      00:00:00 GMT
+    X-Analytics:
+    - ns=0;page_id=37654760;https=1;nocookies=1
+    X-Client-Ip:
+    - 5.148.47.8
+    Cache-Control:
+    - private, s-maxage=0, max-age=0, must-revalidate
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Mon, 09 Jan 2017 08:46:17 GMT
